@@ -1,0 +1,70 @@
+# ── AI Meeting Assistant ─────────────────────────────────────────────────────
+# Python >= 3.10 recommended
+
+# ── Audio / Video Acquisition ────────────────────────────────────────────────
+yt-dlp
+pydub
+ffmpeg-python
+# FFmpeg binary must be installed separately on the system
+
+
+# ── Speech-to-Text (Local Whisper) ────────────────────────────────────────────
+openai-whisper
+torch
+torchaudio
+
+
+# ── Translation (Hindi → English) ────────────────────────────────────────────
+deep-translator
+
+
+# ── LLM Orchestration — LangChain + Mistral ──────────────────────────────────
+langchain
+langchain-core
+langchain-community
+langchain-mistralai
+mistralai
+
+
+# ── Ollama — Local LLM + Embeddings ──────────────────────────────────────────
+ollama
+langchain-ollama
+
+# Example embedding model:
+# ollama pull nomic-embed-text
+#
+# Or another embedding model:
+# ollama pull mxbai-embed-large
+
+
+# ── RAG Pipeline ─────────────────────────────────────────────────────────────
+chromadb
+langchain-chroma
+tiktoken
+langchain-text-splitters
+
+
+# ── Web API ──────────────────────────────────────────────────────────────────
+fastapi
+uvicorn
+python-multipart
+
+
+# ── PDF & TXT Export ─────────────────────────────────────────────────────────
+reportlab
+fpdf2
+
+
+# ── Utilities ────────────────────────────────────────────────────────────────
+python-dotenv
+numpy
+tqdm
+requests
+
+redis
+redisvl[ollama]
+
+# ── Workflow Orchestration ───────────────────────────────────────────────────
+inngest
+fastapi
+uvicorn

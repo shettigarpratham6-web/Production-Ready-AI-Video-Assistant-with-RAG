@@ -1,0 +1,63 @@
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+*.env
+
+# Python & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+.venv/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Vector Store and Persistent Runtime Databases
+vector_db/
+*.sqlite3
+*.bin
+
+# Inngest Local Run Results & Logs
+.inngest_results/
+*.log
+
+# Agent Scratch & Temporary Folders
+.kilo/
+.gemini/
+.antigravity/
+
+# Frontend Build & Node Modules
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+node_modules/
+dist/
+.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Operating System & Editor Files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
